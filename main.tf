@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "dilbag-terraform-rg"
+  name     = "dilbag-tf-project-rg"
   location = "North Europe"
 }
 resource "azurerm_ssh_public_key" "sshkey" {
